@@ -23,7 +23,7 @@ CHUNK = 8  # Indicates message/file chunk
 FILE_END = 9
 MESS_END = 10
 
-SAVE_ADDRESS = r"C:\Users\andre\OneDrive\Desktop\Received"
+SAVE_ADDRESS = r"C:\" # Adress for saving incoming files
 HAND_ACK_TIMEOUT = 5  # Seconds to wait for handshake
 ACK_TIMEOUT = 3  # Seconds to wait fo mess ack
 KEEP_ALIVE_INTERVAL = 5  # Seconds for sending keep-alive messages
